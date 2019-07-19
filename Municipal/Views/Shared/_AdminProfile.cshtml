@@ -1,0 +1,36 @@
+﻿@{
+    ViewBag.Title = "_AdminProfile";
+}
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>_Layout</title>
+</head>
+<body>
+    <table width="100%" cellpadding="5" cellspacing="5">
+        <tr>
+            <td width="100"></td>
+            <td align="center" style="background-color: powderblue; color: white; font-size: 15px;">
+                @Html.ActionLink("Create Admin", "UpdateAdmin", "Admin")&nbsp&nbsp&nbsp
+                @Html.ActionLink("Add Bill", "BillInfo", "Admin")&nbsp&nbsp&nbsp&nbsp&nbsp
+               @Html.ActionLink("Birth Certificate Registers", "BirthCertificateRegisters", "Admin")&nbsp&nbsp&nbsp
+                @Html.ActionLink("NID Registers", "NIDRegisters", "Admin")&nbsp&nbsp
+                 @Html.ActionLink("Complains", "UsersComplainInfo", "Admin")&nbsp&nbsp
+                 @Html.ActionLink("My Profile", "AdminProfile", "Admin")&nbsp&nbsp&nbsp
+                @Html.ActionLink("Logout", "Logout", "User")
+               </td>
+            <td width="100"></td>
+        </tr>
+        
+        <tr>
+            <td width="100"></td>
+            <td>@RenderBody()</td>
+            <td width="100"></td>
+        </tr>
+    </table>
+</body>
+</html>

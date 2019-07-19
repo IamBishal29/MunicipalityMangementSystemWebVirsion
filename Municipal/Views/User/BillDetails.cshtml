@@ -1,0 +1,57 @@
+﻿@model FinalEntity.Bill
+
+@{
+    ViewBag.Title = "BillDetails";
+    Layout = "~/Views/Shared/_ProfileLayout.cshtml";
+
+}
+
+<h2>BillDetails</h2>
+
+<fieldset>
+    <legend>Bill</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.WaterBill)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.WaterBill)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ElectricityBill)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ElectricityBill)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.GasBill)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.GasBill)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.BillDate)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.BillDate)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Billstatus)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Billstatus)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.UserId)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.UserId)
+    </div>
+</fieldset>
+<p>
+</p>

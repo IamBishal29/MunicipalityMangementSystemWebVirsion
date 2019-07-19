@@ -1,0 +1,24 @@
+C:\Users\User\Documents\my all codes\C#\Final\FinalRepository\obj\Debug\FinalRepository.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\my all codes\C#\Final\FinalRepository\bin\Debug\FinalRepository.dll.config
+C:\Users\User\Documents\my all codes\C#\Final\FinalRepository\bin\Debug\FinalRepository.dll
+C:\Users\User\Documents\my all codes\C#\Final\FinalRepository\bin\Debug\FinalRepository.pdb
+C:\Users\User\Documents\my all codes\C#\Final\FinalRepository\bin\Debug\EntityFramework.dll
+C:\Users\User\Documents\my all codes\C#\Final\FinalRepository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Documents\my all codes\C#\Final\FinalRepository\bin\Debug\FinalEntity.dll
+C:\Users\User\Documents\my all codes\C#\Final\FinalRepository\bin\Debug\FinalEntity.pdb
+C:\Users\User\Documents\my all codes\C#\Final\FinalRepository\bin\Debug\EntityFramework.xml
+C:\Users\User\Documents\my all codes\C#\Final\FinalRepository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Documents\my all codes\C#\Final\FinalRepository\obj\Debug\FinalRepository.dll
+C:\Users\User\Documents\my all codes\C#\Final\FinalRepository\obj\Debug\FinalRepository.pdb
+C:\Users\Bishal\Documents\Final\FinalRepository\bin\Debug\FinalRepository.dll.config
+C:\Users\Bishal\Documents\Final\FinalRepository\bin\Debug\FinalRepository.dll
+C:\Users\Bishal\Documents\Final\FinalRepository\bin\Debug\FinalRepository.pdb
+C:\Users\Bishal\Documents\Final\FinalRepository\bin\Debug\EntityFramework.dll
+C:\Users\Bishal\Documents\Final\FinalRepository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Bishal\Documents\Final\FinalRepository\bin\Debug\FinalEntity.dll
+C:\Users\Bishal\Documents\Final\FinalRepository\bin\Debug\FinalEntity.pdb
+C:\Users\Bishal\Documents\Final\FinalRepository\bin\Debug\EntityFramework.xml
+C:\Users\Bishal\Documents\Final\FinalRepository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Bishal\Documents\Final\FinalRepository\obj\Debug\FinalRepository.csprojResolveAssemblyReference.cache
+C:\Users\Bishal\Documents\Final\FinalRepository\obj\Debug\FinalRepository.dll
+C:\Users\Bishal\Documents\Final\FinalRepository\obj\Debug\FinalRepository.pdb

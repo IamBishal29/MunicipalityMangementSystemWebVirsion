@@ -1,0 +1,106 @@
+﻿@model FinalEntity.BirthCertificate
+
+@{
+    ViewBag.Title = "BirthRegistration";
+    Layout = "~/Views/Shared/_ProfileLayout.cshtml";
+}
+
+
+<h2>BirthRegistration</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>BirthCertificate</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.DateOfissue)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.DateOfissue)
+            @Html.ValidationMessageFor(model => model.DateOfissue)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Name)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Name)
+            @Html.ValidationMessageFor(model => model.Name)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.FathersName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.FathersName)
+            @Html.ValidationMessageFor(model => model.FathersName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MothersName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MothersName)
+            @Html.ValidationMessageFor(model => model.MothersName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.DateOfBirth)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.DateOfBirth)
+            @Html.ValidationMessageFor(model => model.DateOfBirth)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.PermanentAddress)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.PermanentAddress)
+            @Html.ValidationMessageFor(model => model.PermanentAddress)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.PresentAddress)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.PresentAddress)
+            @Html.ValidationMessageFor(model => model.PresentAddress)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Nationality)
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(model => model.Nationality,new {@Value="Bangladeshi" })
+            @Html.ValidationMessageFor(model => model.Nationality)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Gender)
+        </div>
+        <div class="editor-field">
+            Male
+            @Html.RadioButtonFor(model => model.Gender,"Male")
+            Female
+            @Html.RadioButtonFor(model => model.Gender,"Female")
+            @Html.ValidationMessageFor(model => model.Gender)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.UserId)
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(model => model.UserId,new {@Value=Session["ID"] })
+            @Html.ValidationMessageFor(model => model.UserId)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+

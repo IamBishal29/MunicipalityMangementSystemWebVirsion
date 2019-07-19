@@ -1,0 +1,43 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+</head>
+<body>
+    <form method="post">
+        <div>
+            <table width="100%" hight="50%" align="center">
+                <tr>
+                    <td>
+                        User Email<br />
+                        <input type="text" name="Email" width="40" Style="height:40px; font-size:14px; width:600px;" placeholder="Input Email"/>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        User Password<br />
+                        <input type="password" name="pass" width="40" Style="height:40px; font-size:14px; width:600px;" placeholder="Input Password"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label style="color:red">@ViewBag.loginmessage</label><br />
+                        <input type="submit" value="Login" />
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+   
+</body>
+</html>

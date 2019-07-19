@@ -1,0 +1,20 @@
+C:\Users\User\Documents\my all codes\C#\Final\FinalEntity\obj\Debug\FinalEntity.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\my all codes\C#\Final\FinalEntity\bin\Debug\FinalEntity.dll.config
+C:\Users\User\Documents\my all codes\C#\Final\FinalEntity\bin\Debug\FinalEntity.dll
+C:\Users\User\Documents\my all codes\C#\Final\FinalEntity\bin\Debug\FinalEntity.pdb
+C:\Users\User\Documents\my all codes\C#\Final\FinalEntity\bin\Debug\EntityFramework.dll
+C:\Users\User\Documents\my all codes\C#\Final\FinalEntity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Documents\my all codes\C#\Final\FinalEntity\bin\Debug\EntityFramework.xml
+C:\Users\User\Documents\my all codes\C#\Final\FinalEntity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Documents\my all codes\C#\Final\FinalEntity\obj\Debug\FinalEntity.dll
+C:\Users\User\Documents\my all codes\C#\Final\FinalEntity\obj\Debug\FinalEntity.pdb
+C:\Users\Bishal\Documents\Final\FinalEntity\bin\Debug\FinalEntity.dll.config
+C:\Users\Bishal\Documents\Final\FinalEntity\bin\Debug\FinalEntity.dll
+C:\Users\Bishal\Documents\Final\FinalEntity\bin\Debug\FinalEntity.pdb
+C:\Users\Bishal\Documents\Final\FinalEntity\bin\Debug\EntityFramework.dll
+C:\Users\Bishal\Documents\Final\FinalEntity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Bishal\Documents\Final\FinalEntity\bin\Debug\EntityFramework.xml
+C:\Users\Bishal\Documents\Final\FinalEntity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Bishal\Documents\Final\FinalEntity\obj\Debug\FinalEntity.csprojResolveAssemblyReference.cache
+C:\Users\Bishal\Documents\Final\FinalEntity\obj\Debug\FinalEntity.dll
+C:\Users\Bishal\Documents\Final\FinalEntity\obj\Debug\FinalEntity.pdb

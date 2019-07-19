@@ -1,0 +1,70 @@
+﻿@model FinalEntity.Bill
+
+@{
+    ViewBag.Title = "CreateBill";
+    Layout = "~/Views/Shared/_AdminProfile.cshtml";
+
+}
+
+<h2>CreateBill</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Bill</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.WaterBill)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.WaterBill)
+            @Html.ValidationMessageFor(model => model.WaterBill)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ElectricityBill)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.ElectricityBill)
+            @Html.ValidationMessageFor(model => model.ElectricityBill)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.GasBill)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.GasBill)
+            @Html.ValidationMessageFor(model => model.GasBill)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.BillDate)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.BillDate)
+            @Html.ValidationMessageFor(model => model.BillDate)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Billstatus)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Billstatus)
+            @Html.ValidationMessageFor(model => model.Billstatus)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.UserId)
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(model => model.UserId,new {@Value=Session["userid"] })
+            @Html.ValidationMessageFor(model => model.UserId)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+

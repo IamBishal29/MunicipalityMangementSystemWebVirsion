@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "_HomeLayout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>_Layout</title>
+</head>
+<body>
+    <table width="100%" cellpadding="5" cellspacing="5">
+        <tr>
+            <td width="100"></td>
+            <td align="Right" style="background-color: powderblue; color: white; font-size: 24px;">
+                <b>Municipality Management System</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                @Html.ActionLink("Register", "Registration", "User")&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                 @Html.ActionLink("Login", "Login", "User")
+               </td>
+            <td width="100"></td>
+        </tr>
+        
+        <tr>
+            <td width="100"></td>
+            <td>@RenderBody()</td>
+            <td width="100"></td>
+        </tr>
+    </table>
+</body>
+</html>

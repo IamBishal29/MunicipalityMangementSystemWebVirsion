@@ -1,0 +1,86 @@
+﻿@model FinalEntity.User
+
+@{
+    ViewBag.Title = "Editprofile";
+    Layout = "~/Views/Shared/_ProfileLayout.cshtml";
+
+}
+
+<h2>Editprofile</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>User</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.UserName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.UserName)
+            @Html.ValidationMessageFor(model => model.UserName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Password)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Password)
+            @Html.ValidationMessageFor(model => model.Password)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Email)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Email)
+            @Html.ValidationMessageFor(model => model.Email)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MobileNo)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MobileNo)
+            @Html.ValidationMessageFor(model => model.MobileNo)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.DateOfBirth)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.DateOfBirth)
+            @Html.ValidationMessageFor(model => model.DateOfBirth)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Gender)
+        </div>
+        <div class="editor-field">
+             Male
+            @Html.RadioButtonFor(model => model.Gender,"Male")
+            Female
+            @Html.RadioButtonFor(model => model.Gender,"Female")
+            @Html.ValidationMessageFor(model => model.Gender)
+        </div>
+
+       @* <div class="editor-label">
+            @Html.LabelFor(model => model.AdminCheck)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.AdminCheck)
+            @Html.ValidationMessageFor(model => model.AdminCheck)
+        </div>*@
+
+        @Html.HiddenFor(model => model.Id)
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back", "profile")
+</div>

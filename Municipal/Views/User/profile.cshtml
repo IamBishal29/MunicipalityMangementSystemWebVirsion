@@ -1,0 +1,66 @@
+﻿@model FinalEntity.User
+
+@{
+    ViewBag.Title = "profile";
+    Layout = "~/Views/Shared/_ProfileLayout.cshtml";
+
+}
+
+
+
+<fieldset>
+    <legend>User</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.UserName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.UserName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Password)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Password)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Email)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Email)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.MobileNo)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MobileNo)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.DateOfBirth)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.DateOfBirth)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Gender)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Gender)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.AdminCheck)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.AdminCheck)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Editprofile", new { id=Model.Id }) 
+    
+</p>

@@ -1,0 +1,42 @@
+﻿@model IEnumerable<FinalEntity.Complain>
+
+@{
+    ViewBag.Title = "UsersComplainInfo";
+    Layout = "~/Views/Shared/_AdminProfile.cshtml";
+
+}
+
+<h2>UsersComplainInfo</h2>
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ComplainMsg)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Other)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UserId)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ComplainMsg)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Other)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UserId)
+        </td>
+        <td>
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

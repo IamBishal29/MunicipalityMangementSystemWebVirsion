@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "_ProfileLayout";
+}
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>_Layout</title>
+</head>
+<body>
+    <table width="100%" cellpadding="5" cellspacing="5">
+        <tr>
+            <td width="100"></td>
+            <td align="center" style="background-color: powderblue; color: white; font-size: 15px;">
+                @Html.ActionLink("Birth Certificate Registration", "BirthRegistration", "BC")&nbsp&nbsp&nbsp
+                @Html.ActionLink("Birth Certificate Details", "Details", "BC")&nbsp&nbsp&nbsp
+                @Html.ActionLink("NID Registration", "NIDRegistration", "NID")&nbsp&nbsp&nbsp
+                @Html.ActionLink("NID Details", "Details", "NID")&nbsp&nbsp&nbsp
+               @Html.ActionLink("Bill Details", "BillDetails", "User")&nbsp&nbsp&nbsp
+                 @Html.ActionLink("Add Complain", "CreateComplain", "User")&nbsp&nbsp
+                 @Html.ActionLink("My Profile", "profile", "User")&nbsp&nbsp&nbsp
+                @Html.ActionLink("Logout", "Logout", "User")
+               </td>
+            <td width="100"></td>
+        </tr>
+        
+        <tr>
+            <td width="100"></td>
+            <td>@RenderBody()</td>
+            <td width="100"></td>
+        </tr>
+    </table>
+</body>
+</html>

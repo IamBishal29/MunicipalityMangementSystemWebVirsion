@@ -1,0 +1,12 @@
+C:\Users\Bishal\Desktop\projects\Final\FinalRepository\bin\Debug\FinalRepository.dll.config
+C:\Users\Bishal\Desktop\projects\Final\FinalRepository\bin\Debug\FinalRepository.dll
+C:\Users\Bishal\Desktop\projects\Final\FinalRepository\bin\Debug\FinalRepository.pdb
+C:\Users\Bishal\Desktop\projects\Final\FinalRepository\bin\Debug\EntityFramework.dll
+C:\Users\Bishal\Desktop\projects\Final\FinalRepository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Bishal\Desktop\projects\Final\FinalRepository\bin\Debug\FinalEntity.dll
+C:\Users\Bishal\Desktop\projects\Final\FinalRepository\bin\Debug\FinalEntity.pdb
+C:\Users\Bishal\Desktop\projects\Final\FinalRepository\bin\Debug\EntityFramework.xml
+C:\Users\Bishal\Desktop\projects\Final\FinalRepository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Bishal\Desktop\projects\Final\FinalRepository\obj\Debug\MunicipalRepository.csprojResolveAssemblyReference.cache
+C:\Users\Bishal\Desktop\projects\Final\FinalRepository\obj\Debug\FinalRepository.dll
+C:\Users\Bishal\Desktop\projects\Final\FinalRepository\obj\Debug\FinalRepository.pdb
